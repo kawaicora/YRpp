@@ -10,7 +10,9 @@ class NOVTABLE DisplayClass : public MapClass
 public:
 	//Static
 	DEFINE_REFERENCE(DisplayClass, Instance, 0x87F7E8u)
-
+	DEFINE_REFERENCE(CellStruct, Display_ZoneCell, 0x88095C)
+	DEFINE_REFERENCE(CellStruct, Display_ZoneOffset, 0x880960u)
+	DEFINE_REFERENCE(CellStruct, Display_CurrentFoundationt, 0x880964u)
 	//WIP: DisplayClass::TacticalClass goes HERE
 
 	bool ProcessClickCoords(Point2D *src, CellStruct *XYdst, CoordStruct *XYZdst, ObjectClass **Target, BYTE *a5, BYTE *a6)

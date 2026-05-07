@@ -1,7 +1,7 @@
 #pragma once
 
 #include <windows.h>
-#include <atlbase.h>
+//#include <atlbase.h>
 #include <GeneralDefinitions.h>
 
 #include <comdef.h>
