@@ -195,7 +195,7 @@ public:
 		int queue_theme = -1,
 		char use_hidden_surface1 = -1,
 		char stretch_movie = -1,
-		char use_hidden_surface2 = -1,
+		char use_hidden_surface2 = 1,
 		char set_state_1 = -1
 	)
 	{
